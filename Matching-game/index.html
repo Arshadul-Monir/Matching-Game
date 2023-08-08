@@ -1,0 +1,48 @@
+<!-- Open project in a new tab for better experience -->
+<!DOCTYPE html>
+
+<head>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+
+<body onload="initialize();">
+
+  <div id="cards">
+    <img id="1" onclick="flip(1);" src="images/Question Mark.png" alt="Hidden" height=100>
+    <img id="2" onclick="flip(2);" src="images/Question Mark.png" alt="Hidden" height=100>
+    <img id="3" onclick="flip(3);" src="images/Question Mark.png" alt="Hidden" height=100>
+    <img id="4" onclick="flip(4);" src="images/Question Mark.png" alt="Hidden" height=100>
+    <img id="5" onclick="flip(5);" src="images/Question Mark.png" alt="Hidden" height=100>
+    <img id="6" onclick="flip(6);" src="images/Question Mark.png" alt="Hidden" height=100>
+    <img id="7" onclick="flip(7);" src="images/Question Mark.png" alt="Hidden" height=100>
+    <img id="8" onclick="flip(8);" src="images/Question Mark.png" alt="Hidden" height=100>
+    <img id="9" onclick="flip(9);" src="images/Question Mark.png" alt="Hidden" height=100>
+    <img id="10" onclick="flip(10);" src="images/Question Mark.png" alt="Hidden" height=100>
+    <img id="11" onclick="flip(11);" src="images/Question Mark.png" alt="Hidden" height=100>
+    <img id="12" onclick="flip(12);" src="images/Question Mark.png" alt="Hidden" height=100>
+    <img id="13" onclick="flip(13);" src="images/Question Mark.png" alt="Hidden" height=100>
+    <img id="14" onclick="flip(14);" src="images/Question Mark.png" alt="Hidden" height=100>
+    <img id="15" onclick="flip(15);" src="images/Question Mark.png" alt="Hidden" height=100>
+    <img id="16" onclick="flip(16);" src="images/Question Mark.png" alt="Hidden" height=100>
+
+  </div>
+
+  <div id="overlay" onclick="off('overlay')">
+    <div id="flex-container">
+      <p class="flex-item">Welcome to Pet Matching Game! </br>Click two boxes to match </br>Match all boxes and you
+        win</br>Click anywhere to begin
+      </p>
+    </div>
+  </div>
+
+  <div id="win" onClick="initialize(); off('win')">
+    <div id="flex-container">
+      <p class="flex-item">You win!! Click anywhere to play again
+      </p>
+    </div>
+  </div>
+
+</body>
+<html>
